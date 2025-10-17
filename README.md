@@ -251,27 +251,6 @@ Dashboard Streamlit
 Interface utilisateur (navigateur)
 ```
 
-### Structure des fichiers
-
-```
-Clinical-AI-Pro/
-├── 3_dashboard_executive.py      # Dashboard principal
-├── generate_clinical_data.py     # Génération données
-├── clinical_data_complete.csv    # Données simulées (500 patients)
-├── requirements.txt              # Dépendances Python
-├── .gitignore                    # Fichiers à ignorer Git
-├── README.md                     # Ce fichier
-│
-├── docs/
-│   ├── CAHIER_DES_CHARGES.md    # Spécifications complètes
-│   ├── extraction_donnees.sql   # Requêtes SQL
-│   ├── IMPACT_METIER_ROI.md     # Business case détaillé
-│   └── README_PORTFOLIO.md      # Guide complet
-│
-├── data/                         # Dossier pour données additionnelles
-├── models/                       # Dossier pour modèles ML
-└── notebooks/                    # Dossier pour analyses Jupyter
-```
 
 ### Technologies utilisées
 
