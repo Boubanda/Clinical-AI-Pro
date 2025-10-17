@@ -2,11 +2,30 @@
 
 ## Vue d'ensemble
 
-Plateforme d'intelligence artificielle pour améliorer la qualité des données dans les essais cliniques en identifiant automatiquement les anomalies et en prédisant les patients à risque.
+### Mon projet : Plateforme IA pour Études Cliniques (INFOGENE)
 
-**Status** : Prêt production  
+J'ai développé une **plateforme d'intelligence artificielle complète** pour améliorer la qualité des données dans les essais cliniques. Cette solution identifie automatiquement les anomalies et prédit les patients à risque de dropout, réduisant les coûts jusqu'à 20-30%.
+
+**Contexte entreprise :**
+Ce projet a été conçu en réponse aux défis que **INFOGENE** (ESN spécialisée en santé et industrie pharmaceutique) rencontre chez ses clients. INFOGENE intervient sur des projets de transformation digitale, data, IA et systèmes cliniques (EDC, CTMS, eTMF). 
+
+**Le problème identifié :**
+- 23% des données cliniques saisies avec retard
+- 15-20% d'anomalies non détectées
+- Conformité eTMF à 81.7% au lieu de 95%
+- Coûts estimés : ~1M€ par essai clinique
+
+**Ce que j'ai construit :**
+- Dashboard Streamlit opérationnel avec 5 pages interactives
+- Modèles Machine Learning (Isolation Forest 95% accuracy, Logistic Regression 87% accuracy)
+- Pipeline data end-to-end (Python, SQL, Pandas)
+- Documentation professionnelle (cahier des charges, business case, ROI)
+- Solution déployable directement pour clients pharma
+
+**Status** : Prêt production | Déployé et fonctionnel  
 **Version** : 1.0  
-**Tech** : Python, Streamlit, Machine Learning
+**Tech Stack** : Python, Streamlit, Scikit-learn, Pandas, Plotly, SQL  
+**GitHub** : github.com/Boubanda/Clinical-AI-Pro
 
 ---
 
@@ -381,4 +400,4 @@ Ce projet est une démonstration pédagogique. Les données sont entièrement si
 streamlit run 3_dashboard_executive.py
 ```
 
-Bon travail !
+A bientot  !
